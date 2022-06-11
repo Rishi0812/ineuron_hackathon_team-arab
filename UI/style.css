@@ -1,0 +1,40 @@
+body {
+    background-image: url("background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .form-div {
+    width: 600px;
+    margin: 5% auto;
+    text-align: center;
+    background-color: #0aa1dd;
+    padding: 100px;
+    border-radius: 20px;
+    align-items: center;
+  }
+.option{
+    width: 30%;
+    align-items: center;
+    margin-top: 7%;
+}  
+.button{
+    background-color: #283177;
+    width: 50%;
+}
+.audio-output{
+width: 100%;
+}
+  #form-main-text {
+    font-size: large;
+    font-weight: bold;
+  }
+
+
+  
