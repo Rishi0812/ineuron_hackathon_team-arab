@@ -1,4 +1,4 @@
-# I Neuron Hackathon Team ARAB
+# I-Neuron Hackathon Team ARAB
 
 ## AI/ML/DEEP LEARNING - PS 1
 
