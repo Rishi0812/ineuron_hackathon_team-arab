@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Generator & Dub</title>
+<!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+
+    <!-- BOOTSTRAP -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="static/styles/style.css" />
+  </head>
+  <body>
+    <h1>Voice Generator & Dub</h1>
+    <div class="form-div">
+      <!-- <form id="form" action="/success" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <div class="input-mp3">
+                <label for="mp3" class="form-label"></label>
+                <input
+                  class="form-control form-control-lg"
+                  id="mp3"
+                  type="file"
+                  name="als"
+                />
+              </div>
+              <select class="form-select option" aria-label="Default select example" name="das">
+                <option selected>Language</option>
+                <option value="1">FRENCH</option>
+                <option value="2">SPANISH</option>
+              </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg button">Submit</button>
+      </form> -->
+      
+      <form action = "/success" method = "post" enctype="multipart/form-data">  
+        <input type="file" name="file" class="form-control form-control-lg"/> 
+        <select class="form-select option" aria-label="Default select example" name="das">
+          <option selected>Language</option>
+          <option value="fr">FRENCH</option>
+          <option value="es">SPANISH</option>
+        </select> 
+        <input type = "submit" value="Upload" class="btn btn-primary btn-lg button">  
+    </form>   
+          
+      </form>
+        </audio>
+      </div>
+    </div>
+  </body>
+</html>
